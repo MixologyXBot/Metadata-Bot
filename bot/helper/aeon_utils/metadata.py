@@ -45,6 +45,7 @@ async def change_metadata(file, dirpath, key):
         '-metadata', 'language=',
         '-metadata', 'publisher=',
         '-metadata', 'encoder=',
+        '-metadata', 'Encoded by',
         '-metadata', 'SUMMARY=',
         '-metadata', 'AUTHOR=',
         '-metadata', 'WEBSITE=',
